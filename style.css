@@ -1,0 +1,28 @@
+body {
+    font-family: 'Dancing Script', cursive;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  font-size: 24px;
+  padding: 15px 30px;
+  margin: 10px;
+}
+
+#no {
+  position: absolute;
+}
+
+#surprise {
+  opacity: 0;
+  transition: opacity 5s ease;
+}
+
+#result1 {
+  font-size: 24px;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
