@@ -13,7 +13,7 @@ body {
 }
 
 button {
-  font-size: 40px;
+  font-size: 50px;
   padding: 15px 30px;
   margin: 10px;
 }
@@ -37,7 +37,7 @@ button {
 }
 #yes  {
   position: relative;
-  font-size: 28px;
+  font-size: 50px;
   transition: opacity 0.1s ease;
   right: 120px;
 
@@ -56,3 +56,4 @@ button {
 
 
 }
+
