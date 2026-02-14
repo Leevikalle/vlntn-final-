@@ -3,7 +3,7 @@ body {
   text-align: center;
   max-width: 90%;
   margin: 0 auto;
-  background-image: url("background2.webp");
+  background-image: url("background.jpg");
   font-size: 40px;
   display: flex;
   flex-direction: column;
@@ -56,4 +56,5 @@ button {
 
 
 }
+
 
