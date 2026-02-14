@@ -3,8 +3,13 @@ body {
   text-align: center;
   max-width: 90%;
   margin: 0 auto;
-  text-align: center;
-  background-image: url("background.jpg");
+  background-image: url("background2.webp");
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
 }
 
 button {
@@ -15,6 +20,9 @@ button {
 
 #no {
   position: absolute;
+  left: 120px;
+  transition: opacity 0.1s ease;
+
 }
 
 #surprise {
@@ -24,11 +32,26 @@ button {
 }
 
 #result1 {
-  font-size: 24px;
   opacity: 0;
   transition: opacity 0.8s ease;
 }
 #yes  {
+  position: relative;
   font-size: 28px;
+  transition: opacity 0.1s ease;
+  right: 120px;
+
+}
+
+#button-container  {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  align-items: center;
+  height: 100px;
+  width: 200px;
 
 }

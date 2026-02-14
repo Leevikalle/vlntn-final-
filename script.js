@@ -13,11 +13,14 @@ let currentSize = parseInt(window.getComputedStyle(yesButton).fontSize);
 
 // Add functions and event listeners
 yesButton.onclick = function() {
-    result.innerText = "Yayy!";
+    result.innerText = "Erinomainen valinta!";
     img.style.transform = "scale(1)";
     img.style.opacity = 1;
-    result1.innerText = "Leevi on juuri voittanut saman kuin 533 lottovoittoa."
+    result1.innerText = "Valmistaudu ikimuistoiseen iltaan."
     result1.style.opacity = 1;
+    result1.style.top += 1000+"px";
+    yesButton.style.opacity = 0;
+    noButton.style.opacity = 0;
 
 };
 
